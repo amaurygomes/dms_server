@@ -1,7 +1,10 @@
 {application,dms_identity,
              [{optional_applications,[]},
-              {applications,[kernel,stdlib,elixir,logger,ecto,dms_repo]},
+              {applications,[kernel,stdlib,elixir,logger,ecto,dms_repo,
+                             argon2_elixir]},
               {description,"dms_identity"},
-              {modules,['Elixir.DmsIdentity']},
+              {modules,['Elixir.DmsIdentity','Elixir.DmsIdentity.Tenant',
+                        'Elixir.DmsIdentity.User',
+                        'Elixir.Inspect.DmsIdentity.User']},
               {registered,[]},
               {vsn,"0.1.0"}]}.
