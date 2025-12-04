@@ -1,9 +1,0 @@
-{application,dms_repo,
-             [{optional_applications,[]},
-              {applications,[kernel,stdlib,elixir,logger,runtime_tools,
-                             postgrex,ecto_sql]},
-              {description,"dms_repo"},
-              {modules,['Elixir.DmsRepo','Elixir.DmsRepo.Application']},
-              {registered,[]},
-              {vsn,"0.1.0"},
-              {mod,{'Elixir.DmsRepo.Application',[]}}]}.
