@@ -24,7 +24,8 @@ defmodule DmsIdentity.MixProject do
   defp deps do
     [
       {:ecto, "~> 3.13"},
-      {:dms_repo, in_umbrella: true}
+      {:dms_repo, in_umbrella: true},
+      {:argon2_elixir, "~> 4.1"}
     ]
   end
 end
