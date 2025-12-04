@@ -23,7 +23,7 @@ defmodule DmsCore.MixProject do
 
   defp deps do
     [
-      {:dms_core, in_umbrella: true},
+      {:dms_identity, in_umbrella: true},
       {:dms_repo, in_umbrella: true}
     ]
   end

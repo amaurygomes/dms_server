@@ -1,6 +1,6 @@
 {application,dms_identity,
              [{optional_applications,[]},
-              {applications,[kernel,stdlib,elixir,logger]},
+              {applications,[kernel,stdlib,elixir,logger,ecto,dms_repo]},
               {description,"dms_identity"},
               {modules,['Elixir.DmsIdentity']},
               {registered,[]},
